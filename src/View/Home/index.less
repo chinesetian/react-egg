@@ -1,0 +1,39 @@
+
+.user-list{
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+
+    .user-table{
+        width: 1000px;
+        height: 100%;
+        margin: 0 auto;
+
+        .user-header{
+            height: 60px;
+
+            .add-user{
+                cursor: pointer;
+            }
+        }
+
+        table{
+            height: calc(~"100% - 60px");
+
+
+            .action{
+                .action-button{
+                    margin-left: 8px;
+                    cursor: pointer;
+                    display: inline-block;
+                    
+                    &:hover{
+                        color: red;
+                    }
+                }
+            }
+            
+        }
+    }
+}
